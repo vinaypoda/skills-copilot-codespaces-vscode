@@ -1,6 +1,6 @@
-function skillMember() {
-    this.name = 'member';
-    this.exec = function () {
-        return 'member';
+function skillsMember() {
+    return {
+        restrict: 'E',
+        templateUrl: 'templates/skills-member.html'
     };
 }
